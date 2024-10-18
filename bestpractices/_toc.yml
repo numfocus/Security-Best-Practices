@@ -3,7 +3,13 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Policy
+    chapters:
+    - file: content/onboarding
+  - caption: Tools
+    chapters:
+    - file: content/static-analysis
+  - caption: Enablers
+    chapters:
+    - file: FAQ
