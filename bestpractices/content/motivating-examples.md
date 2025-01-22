@@ -1,4 +1,4 @@
-# Securing Open Source Software: A Shared Responsibility
+# Securing Open Source Software: Our Responsibility
 
 NumFOCUS-supported projects occupy a unique and critical position in the scientific and data-driven ecosystem. The tools and libraries we develop are relied upon by researchers, analysts, and engineers across academia, industry, and government. These projects often serve as the computational backbone for groundbreaking work, making them an essential part of the software supply chain. While we may not operate production systems directly, the widespread use of our software makes it an attractive target for attackers. Our role in this ecosystem bestows a certain responsibility to safeguard the secure and integrity of our work.
 
