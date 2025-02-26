@@ -52,7 +52,7 @@ For usage details, see the official [Trufflehog documentation](https://github.co
 When evaluating a secret scanning tool, there are several key features to look for:
 
 1. **Relevance**: The relevance to the secrets your project uses. Most of these tools use regular expressions to identify the service associated with the credential. Some also test the credential to determine if it's still active, which helps reduce false positives. Review their documentation to make sure that the services you use are monitored.
-2. **Pre-commit hooks**: The best time to catch a mistake is before it happens. If you can configure the tool into [pre-commit hooks](https://pre-commit.com/), you can detect the secrets _before you commit them to the remote repository_.
+2. **Pre-commit hooks**: The best time to catch a mistake is before it happens. If you can configure the tool into [pre-commit hooks](https://pre-commit.com/), you can detect the secrets _before you can commit them locally and subsequently push changes to the remote repository_.
 3. **CI/CD**: We work in distributed teams and building checks into our automated processes will help protect everyone.
 
 The Security Committee has found that TruffleHog fits nicely because it is open source, supports a wide range of detectors, and has convenient pre-commit hooks and CI integrations.
