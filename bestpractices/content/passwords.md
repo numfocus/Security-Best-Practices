@@ -26,7 +26,7 @@ Ensuring that passwords and other sensitive credentials remain secure is essenti
 
 1. **Never store passwords or tokens directly in your repository.** Use something like GitHub Secrets to manage your secrets during CI/CD.
 2. **Limit Credential Scope**: Give each service or token the least privileges possible. Avoid reusing passwords across multiple services.
-3. **Rotate Credentials Regularly**: If you accidentally expose a secret, be prepared to revoke or rotate it immediately.  
+3. **Rotate Credentials Regularly**: If you accidentally expose a secret, be prepared to revoke or rotate it immediately.
 4. **Educate Contributors**: Let your community know about these security measures. Provide clear guidelines for how they should handle secrets.
 
 ---
