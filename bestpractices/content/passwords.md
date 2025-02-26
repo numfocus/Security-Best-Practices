@@ -14,7 +14,7 @@ This post aims to help open source maintainers understand:
 
 Hardcoded passwords, API keys, and other secrets in your repository can expose your project to risks like:
 
-- **Account Takeover**: Exposed credentials can allow unauthorized access to critical services (e.g., package registries, CI/CD systems, or infrastructure).  
+- **Account Takeover**: Exposed credentials can allow unauthorized access to critical services (e.g., package registries, CI/CD systems, or infrastructure).
 - **Reputation Damage**: A security breach can harm your project's reputation, deterring potential collaborators or users.
 - **User Supply Chain Risk**: With unauthorized access, attackers can push harmful content to your users. Most often, this is simply defacement or malicious binaries (like cryptojackers), but can sometimes be more insidious.
 
