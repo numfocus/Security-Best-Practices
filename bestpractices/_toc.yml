@@ -12,4 +12,5 @@ parts:
     - file: content/static-analysis
   - caption: Enablers
     chapters:
+    - file: content/motivating-examples
     - file: FAQ
