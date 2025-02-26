@@ -4,8 +4,8 @@ Maintaining open source software often means juggling a variety of responsibilit
 
 This post aims to help open source maintainers understand:
 
-1. The value of using a password manager for both personal and project credentials.  
-2. How to scan for accidentally committed secrets using open source tools like [trufflehog](https://github.com/trufflesecurity/trufflehog).  
+1. The value of using a password manager for both personal and project credentials.
+2. How to scan for accidentally committed secrets using open source tools like [trufflehog](https://github.com/trufflesecurity/trufflehog).
 3. Techniques for setting up pre-commit hooks and CI scans to ensure secrets do not leak into your repositories.
 
 ---
