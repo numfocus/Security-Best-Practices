@@ -45,7 +45,7 @@ If you’re looking for a managed solution, [1Password](https://github.com/1Pass
 
 ## Scanning for Secrets
 
-Even with a password manager, mistakes can happen. You or a contributor might accidentally commit a password, API key, or other credentials to the repository. Fortunately, tools like [trufflehog](https://github.com/trufflesecurity/trufflehog) can help detect these secrets before they make their way into production or public repositories.
+Even with a password manager, mistakes can happen. You or a contributor might accidentally commit a password, API key, or other credentials to the repository. Fortunately, tools like [TruffleHod](https://github.com/trufflesecurity/trufflehog) can help detect these secrets before they make their way into production or public repositories.
 
 For usage details, see the official [Trufflehog documentation](https://github.com/trufflesecurity/trufflehog).
 
