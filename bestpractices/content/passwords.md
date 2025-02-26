@@ -61,4 +61,4 @@ The Security Committee has found that TruffleHog fits nicely because it is open 
 
 ## Conclusion
 
-Password management is a foundational security practice for any open source project, including those under NumFOCUS. By leveraging password managers such as [1Password](https://github.com/1Password/for-open-source) (with its free Teams account for eligible OSS projects) and incorporating secret scanning tools like [trufflehog](https://github.com/trufflesecurity/trufflehog) into your workflow, you can significantly reduce the risk of accidental credential leaks and protect your maintainers and users.
+Password management is a foundational security practice for any open source project, including those under NumFOCUS. By leveraging password managers such as [1Password](https://github.com/1Password/for-open-source) (with its free Teams account for eligible OSS projects) and incorporating secret scanning tools like [TruffleHog](https://github.com/trufflesecurity/trufflehog) into your workflow, you can significantly reduce the risk of accidental credential leaks and protect your maintainers and users.
